@@ -1,5 +1,7 @@
 require('dotenv').config()
 
+const dsn = "mongodb+srv://hampe024:<password>@cluster0.lndb3st.mongodb.net/?retryWrites=true&w=majority";
+
 const express = require('express')
 const cors = require('cors')
 const morgan = require('morgan')
